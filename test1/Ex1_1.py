@@ -19,6 +19,7 @@ def mabna(n):
 def main():
     x = input("Enter your numbers:" )
     print mabna(x)
+    print "hi"
 
 
 

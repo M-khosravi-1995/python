@@ -4,6 +4,10 @@ def dict(x):
    for i in x:
        if i in dict1.keys():
            dict1[i]+=1
+
+
+
+           
        else:
             dict1[i]=1
    test =sorted(dict1.items())
