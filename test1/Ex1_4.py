@@ -7,6 +7,11 @@ def dict(x):
 
 
 
+
+       else:
+            dict1[i]=1
+   test =sorted(dict1.items())
+   b=test[0]
    n=len(test)
    m=test[n-1]
    return(b,m)
